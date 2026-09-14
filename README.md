@@ -47,7 +47,8 @@ Encargado del posicionamiento físico del panel solar:
 1. Configurar la base de datos local importando el archivo `scada_db.sql` en MySQL.
 2. Compilar y cargar el código `.c` en el STM32 y el correspondiente en el ESP32.
 3. Conectar los microcontroladores a los puertos USB de la PC.
-4. Ejecutar el script `conexion_stm32.py` `medicion_de_datos.py` y `scada.py` para iniciar la interfaz de supervisión.
+4. Ejecutar el script `medicion_de_datos.py` y `scada.py` para iniciar la interfaz de supervisión.
+5. Ejecutar el script `conexion_stm32.py` para enviar el angulo al microcontrolador del seguidor solar.
 
 ---
 *Proyecto de Trabajo Final de Grado - 2026*
